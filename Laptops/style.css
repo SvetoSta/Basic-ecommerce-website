@@ -1,0 +1,26 @@
+p{
+    font-size: 1.1em;
+}
+
+.jumbotron{
+    background-color: rgba(143, 162, 177, 0.575);
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pros {
+    color: rgb(47, 201, 47)
+}
+
+.cons {
+    color: rgb(218, 0, 0)
+}
+
+.pic{
+    width: 350px;
+    height: 509px;
+    
+}

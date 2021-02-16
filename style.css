@@ -1,0 +1,177 @@
+body{
+    font-family: "Raleway", sans-serif, 
+}
+h1{
+    font-family: "Raleway", sans-serif
+}
+h2{
+    font-family: "Raleway", sans-serif
+}
+h3{
+    font-family: "Raleway", sans-serif
+}
+h4{
+    font-family: "Raleway", sans-serif
+}
+h5{
+    font-family: "Raleway", sans-serif
+}
+h6{
+    font-family: "Raleway", sans-serif
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(126, 10, 10);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+  
+    background-color: #555;
+  }
+
+
+  .box_Logo{
+    position: relative;
+    padding: 5px;
+    background-position: left;
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+    background-color: rgb(241, 241, 241);
+}
+
+.logo-image{
+  width: 30%;
+  position: relative;
+}
+
+
+.navUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+
+.navLI {
+  float: left;
+}
+
+.navLI .navA {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navLI .navA:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(185, 48, 38);
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#myInput {
+  background-position: 10px 12px;
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myUL .LIa a{
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(12, 12, 12);
+  display: block;
+  
+}
+
+#myUL .LIa:hover:not(.header) {
+  background-color: #eee;
+  
+}
+
+.myUl {
+  list-style-type: none;
+}
+
+
+
+  .map-container-9,
+  .map-container-10,
+  .map-container-11 {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-9 iframe,
+  .map-container-10 iframe,
+  .map-container-11 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
